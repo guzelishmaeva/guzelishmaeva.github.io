@@ -1,6 +1,5 @@
 # Theme Settings
 remote_theme: "mmistakes/minimal-mistakes"
-plugins: - jekyll-remote-theme
 minimal_mistakes_skin: "air"
 
 # Site Settings
