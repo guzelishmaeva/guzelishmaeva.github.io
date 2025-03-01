@@ -1,18 +1,13 @@
-# Theme Settings
-minimal_mistakes_skin    : "air" # Choose a clean skin style
+# Use the Minimal Mistakes theme
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "air"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Guzel Ishmaeva"
-title_separator          : "-"
-subtitle                 : "Ph.D. Candidate in Economics"
-name                     : "Guzel Ishmaeva"
-description              : "Ph.D. Candidate in Economics | Research in [Your Research Focus]"
-url                      : "https://guzelishmaeva.github.io"
-baseurl                  : ""
-repository               : "guzelishmaeva/guzelishmaeva.github.io"
-logo                     : "/assets/images/profile.jpg" # Update this with your photo path
-masthead_title           : " " # Removes default site title from the masthead
+title: "Guzel Ishmaeva"
+name: "Guzel Ishmaeva"
+description: "Ph.D. Candidate in Economics"
+url: "https://guzelishmaeva.github.io"
+baseurl: ""
 
 # Navigation Menu
 nav:
@@ -27,8 +22,13 @@ nav:
   - title: "email"
     url: "mailto:gvi2002@nyu.edu"
 
-# Social Links (Modify based on your profiles)
-social:
+# Author Profile Settings (for homepage)
+author:
+  name: "Guzel Ishmaeva"
+  avatar: "/assets/images/profile.jpg"  # Upload this image
+  bio: "Ph.D. Candidate in Economics | Research in [Your Research Focus]"
+  location: "New York, USA"
+  email: "gvi2002@nyu.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -40,15 +40,7 @@ social:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/your-profile"
 
-# Site Author (Your details)
-author:
-  name: "Guzel Ishmaeva"
-  avatar: "/assets/images/profile.jpg" # Make sure to upload your image here
-  bio: "Ph.D. Candidate in Economics | Research in [Your Research Focus]"
-  location: "New York, USA"
-  email: "gvi2002@nyu.edu"
-
-# Enable Author Profile
+# Layout Settings
 defaults:
   - scope:
       path: ""
@@ -56,15 +48,4 @@ defaults:
     values:
       layout: single
       author_profile: true
-      sidebar: right # Moves photo to the right
-      toc: false
-
-# GitHub Pages Deployment
-remote_theme: "mmistakes/minimal-mistakes"
-
-# Plugins
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-include-cache
+      sidebar: right  # Moves profile photo to the right
