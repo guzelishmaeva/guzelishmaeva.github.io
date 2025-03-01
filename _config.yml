@@ -57,6 +57,7 @@ exclude:
   - Capfile
   - config
   - Gemfile
+  - CHANGELOG.md
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
