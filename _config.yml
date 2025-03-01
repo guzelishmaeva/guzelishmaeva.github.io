@@ -29,3 +29,10 @@ author:
   bio: "Ph.D. Candidate in Economics | Research in [Your Research Focus]"
   location: "New York, USA"
   email: "gvi2002@nyu.edu"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-include-cache  # Add this if missing
