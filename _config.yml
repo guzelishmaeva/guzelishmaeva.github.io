@@ -1,4 +1,4 @@
-# Use the Minimal Mistakes theme
+# Theme Settings
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "air"
 
@@ -22,30 +22,10 @@ nav:
   - title: "email"
     url: "mailto:gvi2002@nyu.edu"
 
-# Author Profile Settings (for homepage)
+# Author Profile
 author:
   name: "Guzel Ishmaeva"
-  avatar: "/assets/images/profile.jpg"  # Upload this image
+  avatar: "/assets/images/profile.jpg"
   bio: "Ph.D. Candidate in Economics | Research in [Your Research Focus]"
   location: "New York, USA"
   email: "gvi2002@nyu.edu"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:gvi2002@nyu.edu"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/guzelishmaeva"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/your-profile"
-
-# Layout Settings
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-      sidebar: right  # Moves profile photo to the right
