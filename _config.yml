@@ -25,14 +25,63 @@ nav:
 # Author Profile
 author:
   name: "Guzel Ishmaeva"
-  avatar: "/assets/profile.jpg"
+  avatar: "/assets/profile.jpg"  #  Ensure image is inside /assets/images/
   bio: "Ph.D. Candidate in Economics | Research in [Your Research Focus]"
   location: "New York, USA"
   email: "gvi2002@nyu.edu"
 
+# Plugins
 plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
-  - jekyll-sitemap
+  - jekyll-remote-theme  # Added required plugin
   - jekyll-paginate
-  - jekyll-include-cache  # Add this if missing
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
+
+keep_files:
+  - .git
+  - .svn
+
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
