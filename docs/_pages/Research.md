@@ -4,7 +4,7 @@ title: "Research"
 permalink: /Research/
 ---
 
-# Research Projects
+
 
 ## Time Competition for the News
 <details>
