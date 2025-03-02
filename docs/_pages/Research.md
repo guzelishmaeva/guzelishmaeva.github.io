@@ -39,9 +39,3 @@ awareness.
 </details>
 <p style="margin-top: 15px;"><a href="/assets/slides_propaganda.pdf" download><strong>Slides</strong></a></p>
 
-<style>
-  body {
-    max-width: 900px;
-    margin: auto;
-  }
-</style>
