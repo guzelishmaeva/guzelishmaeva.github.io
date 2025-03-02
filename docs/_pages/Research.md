@@ -23,7 +23,7 @@ permalink: /Research/
 ## The Limits of Propaganda with Strategic Communication
 <details>
   <summary><strong style="color: #003366; font-size: 18px;">Abstract</strong></summary>
-  <p style="font-size: 16px;"> propose a model in which agents can choose between supporting or not supporting the
+  <p style="font-size: 16px;"> I propose a model in which agents can choose between supporting or not supporting the
 government while the quality of the government is unknown. The sender uses propaganda
 to introduce a bias to the public signal. Society consists of credulous and skeptical citizens
 connected via a random matching mechanism. Credulous citizens follow the public signal
