@@ -21,15 +21,7 @@ nav:
   - title: "Teaching"
     url: /Teaching/
   
-  
 
-# Author Profile
-author:
-  name: ""
-  avatar: ""  #  Ensure image is inside /assets/images/
-  bio: ""
-  location: ""
-  email: ""
 
 # Plugins
 plugins:
