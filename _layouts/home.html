@@ -4,7 +4,8 @@ author_profile: false
 ---
 
 <div class="profile-container">
-  <div class="profile-image">
+  <!-- Left Column (Image + Contact Info) -->
+  <div class="profile-left">
     <img src="/assets/profile.png" alt="Guzel Ishmaeva">
     <p class="profile-info">
       <i class="fas fa-map-marker-alt"></i> New York, USA
@@ -14,7 +15,9 @@ author_profile: false
       <a href="mailto:gvi2002@nyu.edu">gvi2002@nyu.edu</a>
     </p>
   </div>
-  <div class="profile-text">
+
+  <!-- Right Column (Text) -->
+  <div class="profile-right">
     <h1>Guzel Ishmaeva</h1>
     <p>I am a PhD Candidate in Economics at New York University.</p>
     <p>My research focuses on Applied Microeconomics, with a strong emphasis on Empirical Industrial Organization.</p>
@@ -24,15 +27,24 @@ author_profile: false
 </div>
 
 <style>
+/* Main container: Uses Flexbox to create two columns */
 .profile-container {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  max-width: 900px;
+  margin: 40px auto;
+  gap: 40px; /* Space between columns */
+}
+
+/* Left column (Image + Info) */
+.profile-left {
+  flex: 1;
   text-align: center;
 }
 
-.profile-image img {
-  max-width: 350px;
+.profile-left img {
+  max-width: 300px;
   border-radius: 10px;
   margin-bottom: 10px;
 }
@@ -42,12 +54,20 @@ author_profile: false
   margin: 5px 0;
 }
 
-.profile-text {
-  max-width: 700px;
-  margin-top: 20px;
+/* Right column (Text) */
+.profile-right {
+  flex: 2;
+  text-align: left;
 }
 
-.profile-text p {
+.profile-right h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.profile-right p {
   font-size: 18px;
+  line-height: 1.5;
 }
 </style>
+
