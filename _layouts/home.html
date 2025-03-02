@@ -1,35 +1,53 @@
 ---
 layout: single
-author_profile: true
+author_profile: false
 ---
 
-<div class="page-content">
-  <div class="text-section">
+<div class="profile-container">
+  <div class="profile-image">
+    <img src="/assets/profile.png" alt="Guzel Ishmaeva">
+    <p class="profile-info">
+      <i class="fas fa-map-marker-alt"></i> New York, USA
+    </p>
+    <p class="profile-info">
+      <i class="fas fa-envelope"></i> 
+      <a href="mailto:gvi2002@nyu.edu">gvi2002@nyu.edu</a>
+    </p>
+  </div>
+  <div class="profile-text">
     <h1>Guzel Ishmaeva</h1>
     <p>I am a PhD Candidate in Economics at New York University.</p>
     <p>My research focuses on Applied Microeconomics, with a strong emphasis on Empirical Industrial Organization.</p>
     <p>In particular, I study competition in media markets, focusing on the trade-offs between reporting speed and ideological positioning in
-modern journalism.<p>
-    </ul>
-  </div>
-  <div class="image-section">
-    <img src="/assets/profile.png" alt="Guzel Ishmaeva">
+    modern journalism.</p>
   </div>
 </div>
 
 <style>
-.page-content {
+.profile-container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
+  text-align: center;
 }
-.text-section {
-  flex: 1;
-  padding-right: 20px;
-}
-.image-section img {
-  max-width: 400px;
+
+.profile-image img {
+  max-width: 350px;
   border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.profile-info {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.profile-text {
+  max-width: 700px;
+  margin-top: 20px;
+}
+
+.profile-text p {
+  font-size: 18px;
 }
 </style>
-
