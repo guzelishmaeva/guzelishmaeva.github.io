@@ -2,13 +2,10 @@
 main:
   - title: "Home"
     url: /
-  - title: "Bio"
-    url: /bio/
+  - title: "CV"
+    url: /CV/
   - title: "Research"
-    url: /research/
-  - title: "Links"
-    url: /links/
-  - title: "Email"
-    url: "mailto:gvi2002@nyu.edu"
-  - title: "Sitemap"
-    url: /sitemap/
+    url: /Research/
+  - title: "Teaching"
+    url: /Teaching/
+  
