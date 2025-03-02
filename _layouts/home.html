@@ -4,7 +4,7 @@ author_profile: false
 ---
 
 <div class="profile-container">
-  <!-- Name Section (Centered at Top) -->
+  <!-- Name & Links (Centered at Top) -->
   <div class="profile-header">
     <h1 class="profile-name">Guzel Ishmaeva</h1>
     <div class="profile-links">
@@ -13,16 +13,16 @@ author_profile: false
     </div>
   </div>
 
-  <!-- Image -->
-  <div class="profile-image">
-    <img src="/assets/profile.png" alt="Guzel Ishmaeva">
-  </div>
-
-  <!-- Bio Section -->
-  <div class="profile-text">
-    <p>I am a PhD Candidate in Economics at New York University.</p>
-    <p>My research focuses on Applied Microeconomics, with a strong emphasis on Empirical Industrial Organization.</p>
-    <p>In particular, I study competition in media markets, focusing on the trade-offs between reporting speed and ideological positioning in modern journalism.</p>
+  <!-- Two-Column Layout (Image Left, Text Right) -->
+  <div class="profile-content">
+    <div class="profile-left">
+      <img src="/assets/profile.png" alt="Guzel Ishmaeva">
+    </div>
+    <div class="profile-right">
+      <p>I am a PhD Candidate in Economics at New York University.</p>
+      <p>My research focuses on Applied Microeconomics, with a strong emphasis on Empirical Industrial Organization.</p>
+      <p>In particular, I study competition in media markets, focusing on the trade-offs between reporting speed and ideological positioning in modern journalism.</p>
+    </div>
   </div>
 </div>
 
@@ -37,10 +37,10 @@ author_profile: false
   text-align: center;
 }
 
-/* Name Section */
+/* Name & Links Section */
 .profile-header {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .profile-name {
@@ -49,13 +49,12 @@ author_profile: false
   margin-bottom: 5px;
 }
 
-/* Links Section */
 .profile-links {
   margin-bottom: 15px;
 }
 
 .profile-links a {
-  font-size: 16px;
+  font-size: 18px;
   text-decoration: none;
   margin: 0 10px;
   font-weight: bold;
@@ -66,18 +65,47 @@ author_profile: false
   text-decoration: underline;
 }
 
-/* Image */
-.profile-image img {
-  max-width: 250px; /* Adjust image size */
-  border-radius: 10px;
-  margin-bottom: 20px;
+/* Two-Column Layout */
+.profile-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 900px;
+  margin-top: 20px;
 }
 
-/* Bio Text */
-.profile-text {
-  max-width: 700px;
+/* Left Column (Image) */
+.profile-left {
+  flex: 1;
+  text-align: center;
+}
+
+.profile-left img {
+  max-width: 250px;
+  border-radius: 10px;
+}
+
+/* Right Column (Text) */
+.profile-right {
+  flex: 2;
+  text-align: left;
+}
+
+.profile-right p {
   font-size: 18px;
   line-height: 1.5;
-  text-align: center;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .profile-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .profile-right {
+    text-align: center;
+  }
 }
 </style>
