@@ -11,24 +11,24 @@ baseurl: ""
 
 # Navigation Menu
 nav:
-  - title: "home"
+  - title: "Home"
     url: /
-  - title: "bio"
-    url: /bio/
-  - title: "research"
-    url: /research/
-  - title: "links"
-    url: /links/
-  - title: "email"
-    url: "mailto:gvi2002@nyu.edu"
+  - title: "CV"
+    url: /CV/
+  - title: "Research"
+    url: /Research/
+  - title: "Teaching"
+    url: /Teaching/
+  
+  
 
 # Author Profile
 author:
-  name: "Guzel Ishmaeva"
-  avatar: "/assets/profile.png"  #  Ensure image is inside /assets/images/
-  bio: "Ph.D. Candidate in Economics | Research in [Your Research Focus]"
-  location: "New York, USA"
-  email: "gvi2002@nyu.edu"
+  name: ""
+  avatar: ""  #  Ensure image is inside /assets/images/
+  bio: ""
+  location: ""
+  email: ""
 
 # Plugins
 plugins:
