@@ -7,33 +7,22 @@ author_profile: false
   <!-- Name Section (Centered at Top) -->
   <div class="profile-header">
     <h1 class="profile-name">Guzel Ishmaeva</h1>
+    <div class="profile-links">
+      <a href="mailto:gvi2002@nyu.edu">[Email]</a>
+      <a href="/assets/CV.pdf" download>[CV]</a>
+    </div>
   </div>
 
-  <!-- Two Column Layout -->
-  <div class="profile-content">
-    <!-- Left Column (Image + Contact Info) -->
-    <div class="profile-left">
-      <img src="/assets/profile.png" alt="Guzel Ishmaeva">
-      <p class="profile-info">
-        <i class="fas fa-map-marker-alt"></i> New York, USA
-      </p>
-      <p class="profile-info">
-        <i class="fas fa-envelope"></i> 
-        <a href="mailto:gvi2002@nyu.edu">Mail</a>
-      </p>
-      <p class="profile-info">
-        <i class="fas fa-file-pdf"></i> 
-        <a href="/assets/CV.pdf" download>CV</a>
-      </p>
-    </div>
+  <!-- Image -->
+  <div class="profile-image">
+    <img src="/assets/profile.png" alt="Guzel Ishmaeva">
+  </div>
 
-    <!-- Right Column (Text) -->
-    <div class="profile-right">
-      <p>I am a PhD Candidate in Economics at New York University.</p>
-      <p>My research focuses on Applied Microeconomics, with a strong emphasis on Empirical Industrial Organization.</p>
-      <p>In particular, I study competition in media markets, focusing on the trade-offs between reporting speed and ideological positioning in
-      modern journalism.</p>
-    </div>
+  <!-- Bio Section -->
+  <div class="profile-text">
+    <p>I am a PhD Candidate in Economics at New York University.</p>
+    <p>My research focuses on Applied Microeconomics, with a strong emphasis on Empirical Industrial Organization.</p>
+    <p>In particular, I study competition in media markets, focusing on the trade-offs between reporting speed and ideological positioning in modern journalism.</p>
   </div>
 </div>
 
@@ -45,144 +34,50 @@ author_profile: false
   align-items: center;
   max-width: 900px;
   margin: 40px auto;
+  text-align: center;
 }
 
 /* Name Section */
 .profile-header {
   text-align: center;
-  margin-bottom: 20px;
-}
-
-.profile-name {
-  font-size: 36px;
-  font-weight: bold;
-}
-
-/* Two Column Layout */
-.profile-content {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 40px;
-}
-
-/* Left Column (Image + Info) */
-.profile-left {
-  flex: 1;
-  text-align: center;
-}
-
-.profile-left img {
-  max-width: 300px;
-  border-radius: 10px;
   margin-bottom: 10px;
 }
 
-.profile-info {
+.profile-name {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Links Section */
+.profile-links {
+  margin-bottom: 15px;
+}
+
+.profile-links a {
   font-size: 16px;
-  margin: 5px 0;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+  color: #003366; /* Dark Blue */
 }
 
-/* Right Column (Text) */
-.profile-right {
-  flex: 2;
-  text-align: left;
+.profile-links a:hover {
+  text-decoration: underline;
 }
 
-.profile-right p {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-/* Responsive Design (Mobile View) */
-@media (max-width: 768px) {
-  .profile-content {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .profile-right {
-    text-align: center;
-  }
-}
-  /* Overall Layout */
-.profile-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 900px;
-  margin: 40px auto;
-}
-
-/* Name Section */
-.profile-header {
-  text-align: center;
+/* Image */
+.profile-image img {
+  max-width: 250px; /* Adjust image size */
+  border-radius: 10px;
   margin-bottom: 20px;
 }
 
-.profile-name {
-  font-size: 36px;
-  font-weight: bold;
-}
-
-/* Two Column Layout */
-.profile-content {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 40px;
-}
-
-/* Left Column (Image + Info) */
-.profile-left {
-  flex: 1;
-  text-align: center;
-}
-
-.profile-left img {
-  max-width: 250px; /* Slightly smaller image */
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
-
-/* Adjusting Font Size for Contact Info */
-.profile-info {
-  font-size: 14px; /* Smaller text */
-  margin: 3px 0;
-}
-
-.profile-info i {
-  font-size: 16px; /* Smaller icons */
-  margin-right: 5px;
-}
-
-.profile-info a {
-  font-size: 14px;
-}
-
-/* Right Column (Text) */
-.profile-right {
-  flex: 2;
-  text-align: left;
-}
-
-.profile-right p {
+/* Bio Text */
+.profile-text {
+  max-width: 700px;
   font-size: 18px;
   line-height: 1.5;
+  text-align: center;
 }
-
-/* Responsive Design (Mobile View) */
-@media (max-width: 768px) {
-  .profile-content {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .profile-right {
-    text-align: center;
-  }
-}
-
 </style>
-
-
