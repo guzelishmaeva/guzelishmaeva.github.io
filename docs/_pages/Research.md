@@ -11,7 +11,7 @@ permalink: /Research/
   <summary><strong style="color: #003366; font-size: 18px;">Abstract</strong></summary>
   <p style="font-size: 16px;">This study examines how ideological slant affects time competition in news reporting on Telegram, Russia’s most widely used social media platform. Using a dataset of publications from 77 news Telegram channels between 2021–2023 and a Topic Detection and Tracking (TDT) algorithm, I identify media events and measure reporting delays. To assess ideological differentiation, I analyze government-sensitive topics and the proportion of ideologically framed articles. Key findings reveal that reporting delays reduce audience engagement, especially for neutral outlets, which report faster than ideologically slanted ones. As ideological slant intensifies, outlets follow structured posting schedules rather than competing on speed. A Difference-in-Differences analysis of Telegram’s “Similar Outlets” feature suggests intensified competition pushes outlets toward stronger ideological positioning. To quantify these effects, I develop a structural model and conduct counterfactual analysis, exploring how platform-driven competition influences editorial choices. This research will provide new insights into the interplay between ideological bias and the pressures of real-time news production in the digital era. </p>
 </details>
-<p style="margin-top: 15px;"><a href="/assets/slides_time_competition.pdf"><strong; font-size: 18px>Slides</strong></a></p>
+<p style="margin-top: 15px;"><a href="/assets/slides_time_competition.pdf" style = "font-size: 18px;"><strong>Slides</strong></a></p>
 
 ### Echo Chambers: Slant and Reader Exposure in Russia’s Telegram News *(with Michele Valinoti)*
 <details>
@@ -37,5 +37,5 @@ influence fixed, the higher inequality in the number of links may lead to a high
 awareness.
 </p>
 </details>
-<p style="margin-top: 15px;"><a href="/assets/slides_propaganda.pdf"><strong; font-size: 18px>Slides</strong></a></p>
+<p style="margin-top: 15px;"><a href="/assets/slides_propaganda.pdf" style = "font-size: 18px;"><strong>Slides</strong></a></p>
 
