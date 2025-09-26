@@ -1,7 +1,7 @@
 # Theme Settings
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "air"
-author_profile: false
+author_profile: true
 
 # Site Settings
 title: ""
